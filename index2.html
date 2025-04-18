@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a class="logo" href="#">SOPIDA</a>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Portfoliio</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                
+                <p>Computer Science <i class="fa-solid fa-code"></i> </p>
+                <h1>Hi, I'm <span>Sopida Chiangsaen </span></h1>
+                <h2>From Huachiew Chalermprakiet University</h2>
+               
+            </div>
+        </div>
+        </div>
+
+        <!-- about -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/me2.jpg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p style="margin-top:-20px;">ooooooooooooooooooooooooooyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+                            yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills" style="margin-top: -4%; margin-left: -5%;">
+                            <ul>
+                              
+                                <li ><span>Softskill</span><br> I enjoy learning new things.
+                                <br>  I am willing to take initiative.
+                                <br>    I have strong leadership skills.
+                                <br>    I am detail-oriented.
+                                <br>I have good interpersonal skills.</li>
+                                        <br>
+                                <li ><span>Hardskill</span><br><img src="img/code.png" style="width: 40%; margin-top: -2%;"  > </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education" style="margin-top: -4%; margin-left: -5%;">
+                            <ul>
+                              
+                                <li ><span>Grade 7-9</span><br> Chonburi Sukkhabot School
+                                <br>
+                                Science-Mathematics Program
+                                </li>
+                                
+                                <li ><span>Grade 10-12</span><br>Chonburi Sukkhabot School 
+                                <br>
+                                English-Korean Program
+                                </li>
+
+                                <li ><span>Now</span><br>Huachiew Chalermprakiet University 
+                                    <br>
+                                    Faculty of Science and Technology
+                                    <br>
+                                    majoring in Computer Science
+                                    <br>
+                                    GPA:3.44
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------Project-------------- -->
+        <div id="project">
+            <div class="container">
+                <h1 class="sab-title">Project</h1>
+                <div class="project-list">
+                    <div>
+                       <h2>“นกหลบท่อ - Noklobtor”</h2>
+                       <p>วิชา Computer Graphics : CSS, HTMLเเละ JavaScript ในการพัฒนา เรียนรู้เกี่ยวกับ2D</p> 
+                       <a href="#">See also</a>
+                    </div>
+                    <div>
+                        <h2>ATM Project</h2>
+                        <p>วิชา object-oriented programming : JAVA ทั้งหมด ทำส่วนฝาก,โอนเเละถอน เรียนรู้เกี่ยวกับการเขียนโปรแกรมที่เน้นมองสิ่งต่าง ๆ ในระบบให้เป็น Object </p> 
+                        <a href="#">See also</a>
+                     </div>
+                     <div>
+                        <h2>STUDY WITH YOU</h2>
+                        <p>วิชา Computer Graphics : CSS ,HTMLเเละ JavaScript ในการพัฒนา เรียนรู้การใช้ Three.js ในการสร้างภาพ 3D</p> 
+                        <a href="#">See also</a>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontens = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabconten of tabcontens){
+                    tabconten.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+               
+            }
+
+            
+        </script>
+    
+    
+</body>
+</html>
