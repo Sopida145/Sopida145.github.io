@@ -141,7 +141,7 @@ span{
     background:#A35C7A ;
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -7px;
     transition: 0.5s;
 }
 .tab-links.active-link::after{
