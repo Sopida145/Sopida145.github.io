@@ -5,22 +5,28 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+
+  margin: 0;
+  padding: 0;
 }
 body{
     background: #FBF5E5;
     color: black;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(img/bg.png);
+    background-image: url(img/bg3.png);
     background-size: cover;
     background-position: center;
     
-   
-
 }
 
 .container{
