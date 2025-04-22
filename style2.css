@@ -187,6 +187,8 @@ border-radius: 10px;
 transition: background 0.5s,transform 0.5s;
 }
 
+
+
 .project-list div h2{
     font-size: 30px;
     font-weight: 500;
@@ -205,6 +207,47 @@ transition: background 0.5s,transform 0.5s;
     background: #A35C7A;
     transform: translateY(-10px);
 }
+/* ----------------web-------------- */
+#web{
+    padding: 30px 0;
+
+}
+.web-list{
+    display: grid;
+    margin-top: 50px;
+}
+
+.web-list div{
+background:#C890A7 ;
+padding: 40px;
+font-size: 13px;
+font-weight: 300;
+border-radius: 10px;
+transition: background 0.5s,transform 0.5s;
+width: 300px;
+}
+
+.web-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.web-list div a{
+    text-decoration: none;
+    color: #FBF5E5;
+    font-size:  12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.web-list div:hover{
+    background: #A35C7A;
+    transform: translateY(-10px);
+}
+
+
+
 
 /* -------------Award------------- */
 #Portfoliio{
