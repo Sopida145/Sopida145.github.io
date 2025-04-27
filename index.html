@@ -10,16 +10,17 @@
 
 </head>
 <body>
+    <section id="Home">
     <div id="header">
         <div class="container">
             <nav>
                 <a class="logo" href="#">SOPIDA</a>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portfoliio</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    
                 </ul>
             </nav>
             <div class="header-text">
@@ -31,7 +32,9 @@
             </div>
         </div>
         </div>
+</section>
 
+<section id="about">
         <!-- about -->
         <div id="about">
             <div class="container">
@@ -41,8 +44,8 @@
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p style="margin-top:-20px;">Determined to apply the knowledge and skills acquired through my studies to develop and enhance software for leading organizations in vehicle GPS tracking systems and IoT solutions. Committed to improving efficiency while embracing and learning the organizational culture to adapt and grow together with the team.
-                        </p>
+                        <h3 style="margin-top:-20px;">I am determined to become a software developer and enthusiastic about applying the knowledge gained from experts to enhance the efficiency of software. I am also committed to improving my communication skills and teamwork abilities.
+                        </h3>
                         <div class="tab-title">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                             <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -90,7 +93,8 @@
                 </div>
             </div>
         </div>
-
+    </section>
+<section id="project">
         <!-- -----------Project-------------- -->
         <div id="project">
             <div class="container">
@@ -123,6 +127,7 @@
 
             </div>
         </div>
+    </section>
         <!-- -----web------ -->
 
         <div id="web">
@@ -140,43 +145,103 @@
         </div>
 
 
-
- <!-- ------------Portfoliio-------------    -->
- <div id="Portfoliio">
+<section id="Portfolio">
+ <!-- ------------Portfoliio--------------->
+ <div id="Portfolio">
     <div class="container">
         <h1 class="sab-title">Awards</h1>
         <div class="Award-list">
             <div class="Award">
                 <img src="img/A1.1.jpg">
                 <div class="layer">
-                    <h3>Honorary Award</h3>
-                    <p>Academic Year 2022 7th September 2023</p>
+                    <h3>Honorary Award Academic Year 2022, on 7th September 2023</h3>
+                    
                 </div>
             </div>
             <div class="Award">
                 <img src="img/A2.2.jpg">
                 <div class="layer">
-                    <h3>Vice-President for Student Affairs</h3>
-                    <p>A first-year student in the Bachelor of Science Program in Computer Science, Academic Year 2022, dated September 7, 2023.</p>
+                    <h3> </h3>
+                    <p>1st Year student Vice-President of the Computer Science Program, Academic Year 2022, on 7th September 2023.</p>
                 </div>
             </div>
             <div class="Award">
                 <img src="img/A3.jpg">
+                <div class="layer">
+                    <h3>Honorary Award Academic Year 2023, on 5th September 2024</h3>
+                </div>
             </div>
             <div class="Award">
                 <img src="img/A4.jpg">
+                <div class="layer">
+                    <h3>2nd Year Student Leader of the Computer Science Program, Academic Year 2023, on 7th September 2024.</h3>
+                </div>
             </div>
             <div class="Award">
                 <img src="img/A5.jpg">
+                <div class="layer">
+                    <h3>Presented the research paper titled "Software License Expiry Notification System" at the 7th National Conference on Science, Technology, and Innovation, Faculty of Science and Technology, Rajamangala University of Technology Phra Nakhon, on 22nd August 2024.</h3>
+                </div>
             </div>
-
+            <div class="Award">
+                <img src="img/A6.jpg">
+                <div class="layer">
+                <h3>Silver Medal Award in the Health and Medical Group, Higher Education Level at the I-New Gen Awards during Thailand's National Inventor's Day 2023<br> on 6th February 2023.</h3>
+            </div>
+</div>
 
         </div>
     </div>
 </div>
-<!-- ---------------Activities------------>
+<!-- ---------------certificate------------>
+<div id="certificates">
+    <div class="container">
+        <h1 class="sab-title">Certificates</h1>
+        <div class="certificates-list">
+            <div class="certificates">
+                <img src="img/c2.png">
+                <div class="layer">
+                    <h3>Completed the e-Learning course on UX Development on 24th April 2025.</h3>
+                   
+                </div>
+            </div>
+            <div class="certificates">
+                <img src="img/c1.png">
+                <div class="layer">
+                    <h3></h3>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ---------------activities------------>
 
-
+<div id="activities">
+    <div class="container">
+        <h1 class="sab-title">Activities</h1>
+        <div class="activities-list">
+            <div class="activities">
+                <img src="img/at1.jpg">
+                <div class="layer">
+                    <h3>entering a “I-New Gen Awards” contest in Thailand’s Inventors day 2023 <br> 
+                        with the “Vein Scan Machine” project</h3>
+                    <p>Attended Thailand’s Inventors Day 2023 on 2-6 February 2023 to enter the “I-NEW GEN AWARDS” Contest with the “Vein Scan Machine” project and got a silver medal award.</p>
+                </div>
+            </div>
+            <div class="activities">
+                <img src="img/at3.jpg">
+                <div class="layer">
+                    <h3>Presented the research paper titled "Software License Expiry Notification System"</h3>
+                    <p></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</section>
         <script>
             var tablinks = document.getElementsByClassName("tab-links");
             var tabcontens = document.getElementsByClassName("tab-contents");

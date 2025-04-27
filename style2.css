@@ -246,11 +246,16 @@ width: 300px;
     transform: translateY(-10px);
 }
 
+.sab-title{
+    font-size: 30px;
+
+}
+
 
 
 
 /* -------------Award------------- */
-#Portfoliio{
+#Portfolio{
     padding: 50px 0;
 }
 .Award-list{
@@ -276,3 +281,60 @@ width: 300px;
     text-align: center;
     
 }
+
+/* -- ---------------certificate------------ */
+#certificates{
+    padding: 50px 0;
+}
+.certificates-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.certificates{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.certificates img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.layer{
+   
+    text-align: center;
+    
+}
+/* -- ---------------activities------------ */
+#activities{
+    padding: 50px 0;
+}
+.activities-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.activities{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.activities img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.layer{
+   
+    text-align: center;
+    
+}
+
+
